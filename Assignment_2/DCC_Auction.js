@@ -284,7 +284,7 @@ window.addEventListener('load', function() {
 		window.web3 = new Web3(web3.currentProvider);
 	} else {
 		console.log('No web3? You should consider trying MetaMask!');
-		window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545");
+		window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8080");
 	}
 	
 	startApp();
