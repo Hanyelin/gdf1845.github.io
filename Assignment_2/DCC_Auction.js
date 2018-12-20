@@ -1,6 +1,6 @@
 
 let contractAddress = '0x40e3f85c5a6c6ee3b63091359b7edc1e5f99d2e1';
-let abi = '[
+let abi = [
 	{
 		"constant": false,
 		"inputs": [],
@@ -274,7 +274,7 @@ let abi = '[
 		"stateMutability": "view",
 		"type": "function"
 	}
-]';
+];
 
 var procName = ['iphone7', 'iphone8', 'iphoneX', 'galaxyS9', 'galaxyNote9', 'LGG7'];\
 
